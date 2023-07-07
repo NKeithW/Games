@@ -41,5 +41,46 @@ while True:
     if var10.lower() == "roger waters":
         print("Correct")
         score+=1
+    var11 = input("What is the name for a group of penguins? ")
+    if var11.lower() == "colony" or var11.lower() == "huddle" or var11.lower() == "raft" or var11.lower() == "rookery" or var11.lower() == "tuxedo" or var11.lower() == "waddle":
+        print("Correct")
+        score+=1
+    var12 == input("What year did the first iPhone come out? ")
+    if var12.lower() == "2007":
+        print("Correct")
+        score+=1
+    var13 == input("Which of the 50 States was its own country for a while? ")
+    if var13.lower() == "Texas":
+        print("Correct")
+        score+=1
+    var14 == input("How many time zones are there in the world? ")
+    if var14.lower() == "38":
+        print("Correct")
+        score+=1
+    var15 == input("What makes Seattle's annual Fremont Solstice Parade unusual? ")  
+    if var15.lower() == "Biking in the nude":
+        print("Correct")
+        score+=1
+    var16 == input("What musical key do most cars honk in? ")
+    if var16.lower() == "F#" or var16.lower() == "f sharp":
+        print("Correct")
+        score+=1 
+    var17 == input("The term John Doe originated from what country?")
+    if var17.lower() == "great britain" or var17.lower() == "britain":
+        print("Correct")
+        score+=1 
+    var18 == input("What proffesion did Pope Francis do before becoming the Pope? ")
+    if var18.lower() == "bouncer":
+        print("Correct")
+        score+=1 
+    var19 == input("How many postage stamps does it tale to gain calorie when licking them?")
+    if var19.lower() == "10":
+        print("Correct")
+        score+=1 
+    var20 == input("What is the last letter added to the American alphabet?")
+    if var20.lower() == "j":
+        print("Correct")
+        score+=1 
+        
     break
-print("Tirvia is over! You got ",score," out of 10 points!")
+print("Tirvia is over! You got ",score," out of 20 points")
